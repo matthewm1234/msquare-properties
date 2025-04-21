@@ -1,0 +1,25 @@
+{
+  "&:hover label": {
+    "color": "#696969"
+  },
+  "& label": {
+    "color": "#636161"
+  },
+  "& label.Mui-focused": {
+    "color": "secondary.main"
+  },
+  "& .MuiOutlinedInput-root": {
+    "color": "secondary.main",
+    "& fieldset": {
+      "borderColor": "secondary.main",
+      "borderWidth": "0px"
+    },
+    "&:hover fieldset": {
+      "borderColor": "primary.main"
+    },
+    "&.Mui-focused fieldset": {
+      "borderColor": "secondary.main",
+      "borderWidth": "0px"
+    }
+  }
+}
